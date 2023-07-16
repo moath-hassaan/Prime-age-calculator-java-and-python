@@ -1,0 +1,55 @@
+Skip this step if you already have 
+
+Installation Guide  * Java Development Kit * 
+
+For Windows
+
+Download the JDK installer for Windows from the official Oracle website: https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
+Open the installer and follow the instructions to install the JDK. During the installation, remember the path where you installed the JDK.
+
+    After the installation, you need to set the system's PATH:
+      - Open System Properties (Right click Computer in the start menu, or use the keyboard shortcut Win+Pause)
+      - Click Advanced system settings
+      - Click Environment Variables
+      - Under System Variables, find the Path variable, select it, and click Edit.
+      - In the Edit dialog, click New and add the path to the JDK installed directory's bin folder (e.g., C:\Program Files\Java\jdk-11\bin)
+
+    You can verify the installation by opening a new Command Prompt and typing java -version. If the installation was successful, you will see the version of your JDK.
+    
+    
+    For Linux (Ubuntu/Debian)
+
+    Open a terminal window.
+
+    Update the package index: sudo apt update
+
+    Install the JDK with the following command: sudo apt install openjdk-11-jdk
+
+    You can verify the installation by typing java -version in the terminal. If the installation was successful, you will see the version of your JDK.
+    
+    
+_______***************************************************_______ 
+   
+
+Running Prime Age Calculator
+(Windows)
+
+    Open Command Prompt.
+
+    Navigate to the directory where you have the PrimeAgeCalculator.java file.
+
+    Compile the Java file: javac PrimeAgeCalculator.java
+   
+    Run the compiled Java program: java PrimeAgeCalculator
+
+(Linux)
+
+    Open a terminal window.
+
+    Navigate to the directory where you have the PrimeAgeCalculator.java file.
+
+    Compile the Java file: javac PrimeAgeCalculator.java
+
+Run the compiled Java program: java PrimeAgeCalculator
+
+That's it! You should now see the Prime Age Calculator running. :)

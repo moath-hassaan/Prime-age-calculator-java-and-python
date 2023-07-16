@@ -1,0 +1,32 @@
+Skip this step if you already have Python installed
+
+Installation
+For Windows:
+
+    Download the official Python installer from the Python Downloads page: https://www.python.org/downloads/
+    Run the installer file and follow the instructions. Make sure to check the box that says "Add Python to PATH" before you click "Install Now".
+    To check the installation, open a new Command Prompt window and type python --version. You should see the Python version number that you installed.
+
+For Linux:
+
+The Python should be preinstalled on most Linux distributions. If it's not, you can install it via the package manager for your specific distribution. Here's how you can do it on Ubuntu:
+
+    Open a terminal.
+    Update the package list by running: sudo apt update
+    Install Python by running: sudo apt install python3
+
+To check the installation, type "python3 --version" in the terminal. 
+You should see the Python version number.
+
+_______***************************************************_______ 
+
+Running the Script
+
+After installing Python, you can run the script by following these steps:
+
+    Download the prime_age.py file and navigate to its location in the command line.
+    Run the script by typing python primeAgeCalculator.py (on Windows) or python3 primeAgeCalculator.py (on Linux) and press Enter.
+    When prompted, enter your birth year.
+    The script will then print the next year when your age will be a prime number. To stop the script, just type 'q' and press Enter.
+
+Enjoy calculating your prime ages!
